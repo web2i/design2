@@ -14,9 +14,9 @@
 		<nav id="topnav">
 			<ul>
 				<li><a id="logo" href="#"><img src="ressources/logo.png"/></a></li>
-				<li><a href="#"><img class="icon_navBar" src="ressources/IconeHome.png"/>Accueil</a></li>
-				<li><a href="#"><img class="icon_navBar" src="ressources/rondIcone.png"/>Projets</a></li>
-				<li><a href="#"><img class="icon_navBar" src="ressources/rondIcone.png"/>Notre Equipe</a></li>
+				<li><a href="#"><img class="navBar_icon" src="ressources/IconeHome.png"/><span class="navBar_titre">Accueil</span></a></li>
+				<li><a href="#"><img class="navBar_icon" src="ressources/rondIcone.png"/><span class="navBar_titre">Projets</span></a></li>
+				<li><a href="#"><img class="navBar_icon" src="ressources/rondIcone.png"/><span class="navBar_titre">Notre équipe</span></a></li>
 			</ul>
 		</nav>
 	</div>
