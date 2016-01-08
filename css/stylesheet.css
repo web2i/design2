@@ -12,6 +12,7 @@ html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-s
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.icon_navBar  {display:block;}
 #header nav ul li {display: inline-block;margin-left: 30px;}
 #header nav ul li a {
     color: #616a77;

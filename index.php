@@ -14,7 +14,7 @@
 		<nav id="topnav">
 			<ul>
 				<li><a id="logo" href="#"><img src="ressources/logo.png"/></a></li>
-				<li><a href="#">Accueil</a></li>
+				<li><img class="icon_navBar" src="ressources/IconeHome.png"/><a href="#">Accueil</a></li>
 				<li><a href="#">Projets</a></li>
 				<li><a href="#">Notre Equipe</a></li>
 			</ul>
