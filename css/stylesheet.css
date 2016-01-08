@@ -1,7 +1,7 @@
 html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-serif;}
 
 /*** NAVIGATION BAR ***/
-#logo img { width: 160px;height: 40px;vertical-align:middle;}
+#logo img {}
 #header {width:100%;background-color: #C0C0C0;border-top: 4px solid #5270a3;position: fixed;z-index: 2000;}
 .header_block {
     margin-left: auto;
@@ -12,7 +12,7 @@ html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-s
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.icon_navBar  {display:block;}
+.icon_navBar  {display:block;margin:auto;}
 #header nav ul li {display: inline-block;margin-left: 30px;}
 #header nav ul li a {
     color: #616a77;
@@ -20,6 +20,7 @@ html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-s
     font-style: normal;
     font-weight: 700;
     text-decoration: none;
+	text-align:center;
     transition-duration: 0.5s;
     transition-property: all;
 }
