@@ -112,8 +112,8 @@
 
 <footer id="footer">
 	<div id="footer_container">
-	  	<input id="footer_input" type="submit" value="Connexion" />
-	  	<label for="footer_input" for="my-file" id="footer_label" tabindex="0"></label>
+		<label for="footer_input" for="my-file" id="footer_label" tabindex="0"></label>
+		<input id="footer_input" type="submit" value="Connexion" />
 		<h5>Copyright© 2015-2016 Web2i. All Rights Reserved.</h5>
 	</div>
 </footer>

@@ -103,11 +103,11 @@ html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-s
 
 /*** FOOTER ***/
 
-#footer {position: relative;background-color: #312f38;height: 200px;width: 100%;margin-top: 100px;}
+#footer {position: relative;background-color: #312f38;height: 100px;width: 100%;margin-top: 100px;}
 #footer_container h5 {margin-left: 5%;color: #f0f0f0;height: 40px;}
-#footer_container {margin-left: 30%;width: 40%;padding-top: 90px;}
+#footer_container {margin-left: 30%;width: 30%;padding-top: 20px;}
 
-#footer_input {vertical-align:middle;float: left;padding: 14px 45px;background: #546494;color: #39D2B4;cursor:pointer;}
+#footer_input {vertical-align:middle;float: right;padding: 10px 10px;background: #546494;color: #39D2B4;cursor:pointer;}
 #footer_input:hover {background: #90aac4;color: #34495E;transition: all .4s;}
 
 /* champ
