@@ -1,0 +1,117 @@
+html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-serif;}
+
+/*** NAVIGATION BAR ***/
+#logo img { width: 160px;height: 40px;vertical-align:middle;}
+#header {width:100%;background-color: #C0C0C0;border-top: 4px solid #5270a3;position: fixed;z-index: 2000;}
+.header_block {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#header nav ul li {display: inline-block;margin-left: 30px;}
+#header nav ul li a {
+    color: #616a77;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+/*** SLIDER ***/
+
+#heading {padding-top:100px;width: 100%;height: 200px;overflow: hidden;}
+.heading_pic {height: 200px;}
+#heading ul {/* 3 images donc 3 x 100% */width: 300%;height: 200px;padding:0; margin:0;list-style: none;}
+#heading li {float: left;}
+
+/*** ABOUT SECTION ***/
+
+#about {
+    position: relative;
+    color:#424753;
+    margin-top:0;
+    background-color: white;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.about_title {line-height: 6;text-align: center;margin-bottom: 20px;}
+.about_text {line-height: 2; width:45%;display: inline-block;text-align: justify;
+            margin-top: 60px; opacity:0;}
+#text_1 {padding-right:4%;border-right: 1px solid #616a77;}
+#text_2 {padding-left:4%;}
+
+/*** TEAM SECTION ***/
+
+#team {
+    position: relative;
+    color:#424753;
+    margin-top:0;
+    background-color: white;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.team_title {line-height: 4;text-align: center;margin-bottom: 20px;}
+.team_text {line-height: 2; width:100%;display: inline-block;text-align: justify;}
+.team_list {list-style: none; opacity:0;margin-left: 20px;}
+.team_member {cursor:pointer;display: inline-block; padding:5px;margin: 5px; margin-left: 10px;background-color: #95c8d6;border-radius: 4px;}
+.team_member:hover {background-color: #5780bd;transition:600ms;}
+.team_member img {
+    width: 60px;
+    box-shadow:  2px 1px 2px #333333; /*horizontal vertical fondu couleur (+inset pour inverser l'orientation*/
+    margin-right: 20px;
+    border-radius: 50%;
+    float: left;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.team_member div {border-left: 1px dashed #616a77;padding-left: 5px;display: inline-block;}
+
+/*** NUMBERS SECTION ***/
+
+#team {
+    position: relative;
+    color:#424753;
+    margin-top:0;
+    background-color: white;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+
+
+
+/*** FOOTER ***/
+
+#footer {position: relative;background-color: #312f38;height: 200px;width: 100%;margin-top: 100px;}
+#footer_container h5 {margin-left: 5%;color: #f0f0f0;height: 40px;}
+#footer_container {margin-left: 30%;width: 40%;padding-top: 90px;}
+
+#footer_input {vertical-align:middle;float: left;padding: 14px 45px;background: #546494;color: #39D2B4;cursor:pointer;}
+#footer_input:hover {background: #90aac4;color: #34495E;transition: all .4s;}
+
+/* champ
+.line {
+  display: block;
+  border: none;
+  color: #333;
+  background: transparent;
+  border-bottom: 1px dotted black;
+  padding: 5px 2px 0 2px;
+}
+
+.line:focus { 
+  outline: none;
+  border-color: #51CBEE;
+}*/
