@@ -15,11 +15,15 @@
 			<ul>
 				<li><a id="logo" href="#"><img src="ressources/logo.png"/></a></li>
 				<li><a href="#"><img class="navBar_icon" src="ressources/IconeHome.png"/><span class="navBar_titre">Accueil</span></a></li>
-				<li><a href="#"><img class="navBar_icon" src="ressources/rondIcone.png"/><span class="navBar_titre">Projets</span></a></li>
-				<li><a href="#"><img class="navBar_icon" src="ressources/rondIcone.png"/><span class="navBar_titre">Notre équipe</span></a></li>
+				<li><a href="#"><img class="navBar_icon" src="ressources/IconeProjects.png"/><span class="navBar_titre">Projets</span></a></li>
+				<li><a href="#"><img class="navBar_icon" src="ressources/IconeTeam.png"/><span class="navBar_titre">Notre équipe</span></a></li>
 			</ul>
+			<label for="header_input" for="my-file" id="footer_label" tabindex="0"></label>
+			<input id="header_input" type="submit" value="Contactez nous" />
 		</nav>
+			
 	</div>
+	
 </header>
 
 <section id="heading">
@@ -30,15 +34,26 @@
 	</ul>
 </section>
 
+<div id="double_div">
 <section id="about">
-	<h2 class="about_title">Build your beautiful UI, the way you want it</h2>
-	<p id="text_1" class="about_text">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.</p>
-	<p id="text_2" class="about_text">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.</p>
+	<h3 class="about_title">Build your beautiful UI, the way you want it</h3>
+	<p class="about_text">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.</p>
 </section>
+<section id="numbers">
+		<h3 class="numbers_title">Numbers</h3>
+		<ul class="numbers_list">
+			<li class="numbers_graph">
+				<img src="ressources/graphique1.jpg"/>
+			</li>
+			<li class="numbers_graph">
+				<img src="ressources/graphique2.jpg"/>
+			</li>
+		</ul>
+</section>
+</div>
 
-<section id="double_div">
 <section id="team">
-	<h3 class="team_title">Animated Grid Layout</h3>
+	<h3 class="team_title">Team</h3>
 	<p class="team_text">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.</p>
 	<ul class="team_list">
 		<li class="team_member">
@@ -107,23 +122,12 @@
 	</ul>
 </section>
 
-<section id="numbers">
-		<h3 class="numbers_title">Numbers</h3>
-		<ul class="numbers_list">
-			<li class="numbers_graph">
-				<img src="ressources/graphique1.jpg">
-			</li>
-			<li class="numbers_graph">
-				<img src="ressources/graphique2.jpg">
-			</li>
-		</ul>
-</section>
-</section>
-
 <footer id="footer">
 	<div id="footer_container">
 		<label for="footer_input" for="my-file" id="footer_label" tabindex="0"></label>
 		<input id="footer_input" type="submit" value="Connexion" />
+		<label for="footer_input2" for="my-file" id="footer_label" tabindex="0"></label>
+		<input id="footer_input2" type="submit" value="Contactez nous" />
 		<h5>Copyright© 2015-2016 Web2i. All Rights Reserved.</h5>
 	</div>
 </footer>

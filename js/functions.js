@@ -6,6 +6,13 @@ $(window).load(function() {
   	var largeur = $(heading).width();
     $(".heading_pic").css('width', largeur);
     $(".about_text").stop().animate({marginTop:0 + "px",opacity:1},1000);
+	var divHeight;
+	var obj = document.getElementById('numbers');
+	if(obj.offsetHeight)          {divHeight=obj.offsetHeight;}
+	else if(obj.style.pixelHeight){divHeight=obj.style.pixelHeight;}
+	var obj2 = document.getElementById('about');
+	obj2.style.height = divHeight+"px";
+	
 });
 
 /*** Mise en route du slider ***/
@@ -58,6 +65,13 @@ $(document).ready(function(){
    });
 
 $(window).scroll(function(){
+	var divHeight;
+	var obj = document.getElementById('numbers');
+	if(obj.offsetHeight)          {divHeight=obj.offsetHeight;}
+	else if(obj.style.pixelHeight){divHeight=obj.style.pixelHeight;}
+	var obj2 = document.getElementById('about');
+	obj2.style.height = divHeight+"px";
+	
 	posScroll = $(document).scrollTop();
 	if(posScroll >=550) 
 		$('.top_link').fadeIn(600);
