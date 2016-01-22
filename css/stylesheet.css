@@ -133,7 +133,7 @@ html, body {margin : 0px;padding:0;background-color: /*#3a6378*/#4d4d4d;font-fam
 /*** FOOTER ***/
 
 #footer {position: relative;background-color: #18171c;height: 100px;width: 100%;margin-top: 50px;margin-bottom:1px;}
-#footer_container h5 {margin-left: 0%;margin-right: 7%;color: #f0f0f0;height: 40px;display:inline;vertical-align:middle;}
+#footer_container h5 {margin-left: 0%;margin-right: 7%;color: #f0f0f0;height: 40px;display:inline;vertical-align:middle;padding-top:10px;line-height:3;}
 #footer_container {margin-left: 30%;width: 50%;padding-top: 30px;}
 
 #footer_input {vertical-align:middle;float: right;padding: 10px 10px;background: #384261;color: #39D2B4;cursor:pointer;border-radius: 12px;}
