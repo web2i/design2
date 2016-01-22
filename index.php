@@ -3,7 +3,7 @@
 
 <head>	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>maquette1 - Projet Mind-Up</title>
+	<title>design2 - Projet Mind-Up</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="all"/>
 	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 	<script type="text/javascript" src="js/functions.js"></script>

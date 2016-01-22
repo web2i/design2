@@ -2,7 +2,7 @@
 <!-- **** H E A D **** -->
 <head>	
 
-	<title>maquette1.fr</title>
+	<title>design2</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="all"/>
 	<script type="text/javascript" src="js/functions.js"></script>
 	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>

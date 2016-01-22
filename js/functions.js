@@ -70,6 +70,7 @@ $(window).scroll(function(){
 	if(obj.offsetHeight)          {divHeight=obj.offsetHeight;}
 	else if(obj.style.pixelHeight){divHeight=obj.style.pixelHeight;}
 	var obj2 = document.getElementById('about');
+	divHeight=divHeight-1;
 	obj2.style.height = divHeight+"px";
 	
 	posScroll = $(document).scrollTop();

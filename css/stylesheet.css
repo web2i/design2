@@ -1,8 +1,9 @@
-html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-serif;}
+html, body {margin : 0px;padding:0;background-color: /*#3a6378*/#4d4d4d;font-family: sans-serif;}
 
 /*** NAVIGATION BAR ***/
 #logo img {margin-right:40px;}
-#header {width:100%;background-color: #C0C0C0;border-top: 4px solid #5270a3;border-bottom: 4px solid #5270a3;position: fixed;z-index: 2000;}
+#header {width:100%;background-color: #3d687e;border-top: 4px solid #5270a3;border-bottom: 4px solid #5270a3;height:130px;}
+.navBar_icon {width:64px;height:64px;}
 .header_block {
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +14,7 @@ html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-s
     padding-bottom: 10px;
 }
 .navBar_icon  {display:block;margin:auto;}
-.navBar_titre {padding-left:4px;}
+.navBar_titre {padding-left:4px;color:white;}
 
 #header_input {vertical-align:middle;float: right;padding: 10px 10px;background: #90aac4;color: #34495E;cursor:pointer;border-radius: 12px;margin-right:8%;margin-top:3.2%;}
 #header_input:hover {background:#384261 ;color:#39D2B4 ;transition: all .4s;}
@@ -34,7 +35,7 @@ html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-s
 
 /*** SLIDER ***/
 
-#heading {padding-top:100px;width: 100%;height: 400px;overflow: hidden;padding-top:130px;}
+#heading {padding-top:0px;width: 100%;height: 400px;overflow: hidden;}
 .heading_pic {height: 400px;}
 #heading ul {/* 3 images donc 3 x 100% */width: 300%;height: 200px;padding:0; margin:0;list-style: none;}
 #heading li {float: left;}
@@ -43,59 +44,64 @@ html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-s
 
 #about {
     position: relative;
-    color:#424753;
+    color:/*#424753*/white;
     margin-top:20px;
-	border-radius: 2%;
+	/*border-radius: 2%;*/
 	margin-left:4%;
 	margin-right:1%;
-    background-color: #C0C0C0;
-    width: 41%;
+    background-color: /*#C0C0C0*//*#4b809b*/ #8da3f2;
+    width: 44%;
 	height: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
+    /*padding-left: 2%;*/
+    /*padding-right: 2%;*/
 	float:left;
 	display:inline-block;
+	border: 3px outset #87b0c5
+	
+	
 }
-.about_title {line-height: 4;text-align: center;margin-bottom: 10px;border: 6px outset grey;}
-.about_text {line-height: 2; width:100%;display: inline-block;text-align: justify;
-            margin-top: 20px; opacity:0;}
+.about_title {top:-20px;position:relative;line-height: 4;text-align: center;margin-bottom: 10px;border: 3px outset #87b0c5;background-color:#4b809b ;}
+.about_text {line-height: 2; width:90%;display: inline-block;text-align: justify;
+            margin-top: 20px; opacity:0; margin-left: 5%;margin-right: 5%;}
 #text_1 {padding-right:4%;border-right: 1px solid #616a77;}
 #text_2 {padding-left:4%;}
-
 /*** TEAM SECTION ***/
 
 #team {
     position: relative;
-	border-radius: 2%;
-    color:#424753;
+	/*border-radius: 2%;*/
+    color:/*#424753*/white;
     margin-top:20px;
 	margin-left:4%;
 	margin-right:4%;
 	margin-bottom:1px;
-    background-color: #C0C0C0;
-    width: 76%;
-    padding-left: 8%;
-    padding-right: 8%;
-	padding-top:20px;
+    background-color: /*#C0C0C0*/#8da3f2;
+    width: 92%;
+    /*padding-left: 8%;
+    padding-right: 8%;*/
+	/*padding-top:20px;*/
 	padding-bottom:4px;
+	border: 3px outset #87b0c5
 	}
 
-.team_title {line-height: 4;text-align: center;margin-bottom: 20px;border: 6px outset grey;}
-.team_text {line-height: 2; width:100%;display: inline-block;text-align: justify;}
+.team_title {top:-20px;position:relative;line-height: 4;text-align: center;margin-bottom: 20px;border: 3px outset #87b0c5;background-color:#4b809b ;}
+.team_text {line-height: 2; width:84%;display: inline-block;text-align: justify;padding-left: 8%;padding-right: 8%;}
 .team_list {list-style: none; opacity:0;margin-left: 20px;}
-.team_member {cursor:pointer;display: inline-block; padding:5px;margin: 5px; margin-left: 10px;background-color: #5780bd;border-radius: 4px;}
+.team_member {cursor:pointer;display: inline-block; padding:5px;margin: 5px; margin-left: 10px;background-color: #5780bd;border-radius: 100%;width:250px;height:150px;overflow:hidden;}
 .team_member:hover {background-color:#95c8d6 ;transition:600ms;}
+.team_member h3{padding-left:10px;margin-bottom:0;}
+.team_member span{padding-left:30px;}
 .team_member img {
     width: 60px;
     box-shadow:  2px 1px 2px #333333; /*horizontal vertical fondu couleur (+inset pour inverser l'orientation*/
     margin-right: 20px;
-    border-radius: 50%;
+    border-radius: 10%;
     float: left;
     display: inline-block;
     margin-top: 8px;
-    margin-left: 8px;
+    margin-left: 95px;
 }
-.team_member div {border-left: 1px dashed #616a77;padding-left: 5px;display: inline-block;}
+.team_member div {/*border-left: 1px dashed #616a77*/;padding-left: 5px;display: inline-block;}
 
 
 #double_div{display:inline-block;}  /**  Div NUMBERS + TEAM  **/
@@ -103,30 +109,30 @@ html, body {margin : 0px;padding:0;background-color: #808080;font-family: sans-s
 
 #numbers {
     position: relative;
-	border-radius: 2%;
-    color:#424753;
+	/*border-radius: 2%;*/
+    color:/*#424753*/white;
     margin-top:20px;
 	margin-left:1%;
 	margin-right:4%;
-	margin-bottom:1px;
-    background-color: #C0C0C0;
-    width: 41%;
+    background-color: /*#C0C0C0*/#8da3f2;
+    width: 44%;
 	height:auto;
-    padding-left: 2%;
-    padding-right: 2%;
+    /*padding-left: 2%;
+    padding-right: 2%;*/
 	float:right;
-	display:inline-block;}
+	display:inline-block;
+	border: 3px outset #87b0c5}
 	
 	
 
-.numbers_title {line-height: 4;text-align: center;margin-bottom: 20px;border: 6px outset grey;}
-.numbers_graph{margin-left:7%;}
+.numbers_title {top:-20px;position:relative;line-height: 4;text-align: center;margin-bottom: 10px;border: 3px outset #87b0c5;background-color:#4b809b ;}
+.numbers_graph{margin-left:7%;padding-left: 2%;padding-right: 2%;}
 .numbers_graph img{width:80%;}
 .numbers_list{list-style: none;}
 
 /*** FOOTER ***/
 
-#footer {position: relative;background-color: #312f38;height: 100px;width: 100%;margin-top: 50px;margin-bottom:1px;}
+#footer {position: relative;background-color: #18171c;height: 100px;width: 100%;margin-top: 50px;margin-bottom:1px;}
 #footer_container h5 {margin-left: 0%;margin-right: 7%;color: #f0f0f0;height: 40px;display:inline;vertical-align:middle;}
 #footer_container {margin-left: 30%;width: 50%;padding-top: 30px;}
 
